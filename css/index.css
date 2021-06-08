@@ -26,7 +26,13 @@ a::before{
     margin-right: 10px;
 }
 
-#button{
+.button{
+    font-size: 16px;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    text-decoration: none;
+    border-style: none;
+    color: #FFF;
     display: inline-block;
     background-color: #2393D9;
     padding: 10px 20px;
@@ -34,7 +40,7 @@ a::before{
     transition: transform 100ms linear, background-color 200ms ease-in-out;
 }
 
-#button:hover{
+.button:hover{
     background-color: #66F2E4;
     transform: scale(1.04);
 }
@@ -64,4 +70,19 @@ a::before{
     font-size: 30px;
     margin: 20px 0 0 0;
     color: #FFF;
+}
+
+.secao-buttons{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #0D0D0D;
+}
+
+.secao-buttons>.button{
+    width: 220px;
+}
+
+.secao-buttons>.button:first-child{
+    margin-right: 50px;
 }
