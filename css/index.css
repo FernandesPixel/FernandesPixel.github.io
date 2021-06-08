@@ -1,5 +1,17 @@
+body{
+    height: 100%;
+}
+
+.background{
+    background-image: url(../img/Spacebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 header {
-    background-color: #0D0D0D;
+    background-color: transparent;
     padding: 20px 20px;
 }
 
@@ -50,7 +62,7 @@ a::before{
     width: 100%;
     text-align: center;
     margin-top: 50px;
-    background-color: #0D0D0D;
+    background-color: transparent;
 }
 
 .secao-titulo>h1{
@@ -76,7 +88,8 @@ a::before{
     display: inline-block;
     width: 100%;
     text-align: center;
-    background-color: #0D0D0D;
+    margin-top: 30px;
+    background-color: transparent;
 }
 
 .secao-buttons>.button{
