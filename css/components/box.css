@@ -1,0 +1,15 @@
+#box{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    background-color: transparent;
+}
+
+#box h1{
+    margin: 0px;
+}
+
+#box h2{
+    margin: 20px 0 0 0;
+}
