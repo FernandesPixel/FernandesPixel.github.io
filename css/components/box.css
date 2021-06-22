@@ -1,8 +1,6 @@
 .box{
-    display: inline-block;
     width: 100%;
     text-align: center;
-    margin-top: 80px;
     background-color: transparent;
 }
 

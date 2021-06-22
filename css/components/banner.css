@@ -1,0 +1,23 @@
+.banner{
+    background-image: url(../../assets/img/Spacebg.png);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-bottom: 10px solid #2393d9;
+}
+
+.banner>.box{
+    margin-top: 80px;
+}
+
+.banner .wrapper{
+    display: inline-block;
+}
+
+.banner .navigation{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
