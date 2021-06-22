@@ -1,4 +1,4 @@
-#box{
+.box{
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -6,10 +6,10 @@
     background-color: transparent;
 }
 
-#box h1{
+.box .title{
     margin: 0px;
 }
 
-#box h2{
+.box .subtitle{
     margin: 20px 0 0 0;
 }

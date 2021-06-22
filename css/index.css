@@ -10,53 +10,6 @@ body{
     background-attachment: fixed;
 }
 
-header {
-    background-color: transparent;
-    padding: 20px 20px;
-}
-
-nav{
-    text-align: center;
-}
-
-a {
-    display: inline-flex;
-    align-items: center;
-    color: #FFF;
-    font-size: 16px;
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-weight: 500px;
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-a::before{
-    content: "";
-    background-color: #F2E635;
-    height: 10px;
-    width: 10px;
-    margin-right: 10px;
-}
-
-.button{
-    font-size: 16px;
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-weight: 500px;
-    text-decoration: none;
-    border-style: none;
-    color: #FFF;
-    display: inline-block;
-    background-color: #2393D9;
-    padding: 10px 20px;
-    margin-right: 0;
-    transition: transform 100ms linear, background-color 200ms ease-in-out;
-}
-
-.button:hover{
-    background-color: #66F2E4;
-    transform: scale(1.04);
-}
-
 .secao-buttons{
     display: inline-block;
     width: 100%;
